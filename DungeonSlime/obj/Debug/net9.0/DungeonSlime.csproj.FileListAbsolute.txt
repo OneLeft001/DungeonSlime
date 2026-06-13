@@ -31,3 +31,6 @@
 /home/ol/Projects/MonoGameProjects/DungeonSlime/DungeonSlime/obj/Debug/net9.0/DungeonSlime.pdb
 /home/ol/Projects/MonoGameProjects/DungeonSlime/DungeonSlime/obj/Debug/net9.0/DungeonSlime.genruntimeconfig.cache
 /home/ol/Projects/MonoGameProjects/DungeonSlime/DungeonSlime/obj/Debug/net9.0/ref/DungeonSlime.dll
+/home/ol/Projects/MonoGameProjects/DungeonSlime/DungeonSlime/obj/Debug/net9.0/DungeonSlime.sourcelink.json
+/home/ol/Projects/MonoGameProjects/DungeonSlime/DungeonSlime/bin/Debug/net9.0/MonoGameLibrary.dll
+/home/ol/Projects/MonoGameProjects/DungeonSlime/DungeonSlime/bin/Debug/net9.0/MonoGameLibrary.pdb
