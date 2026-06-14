@@ -5,12 +5,29 @@
     <projectFile>DungeonSlime/DungeonSlime.csproj</projectFile>
     <projectFile kind="XamarinIOS">DungeonSlime/DungeonSlime.iOS/DungeonSlime.iOS.csproj</projectFile>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b027df9-00c6-4823-85e7-bc532da7e161" name="Changes" comment="" />
+    <list default="true" id="6b027df9-00c6-4823-85e7-bc532da7e161" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonSlime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonSlime/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/Game1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/Game1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DpaMonitoringSettings">
+    <option name="firstShow" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -21,14 +38,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    ".NET Project.DungeonSlime.DesktopGL.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager" selected=".NET Project.DungeonSlime.DesktopGL">
     <configuration name="DungeonSlime" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -54,9 +80,9 @@
       </method>
     </configuration>
     <configuration name="DungeonSlime.DesktopGL" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/DungeonSlime/bin/Debug/net9.0/DungeonSlime" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DungeonSlime/bin/Debug/net9.0" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="ENV_FILE_PATHS" value="" />
@@ -66,12 +92,12 @@
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="AUTO_ATTACH_CHILDREN" value="0" />
       <option name="MIXED_MODE_DEBUG" value="0" />
-      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DungeonSlime/DungeonSlime.DesktopGL/DungeonSlime.DesktopGL.csproj" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DungeonSlime/DungeonSlime.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
       <option name="PROJECT_KIND" value="DotNetCore" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_TFM" value="net9.0" />
       <method v="2">
         <option name="Build" />
       </method>
@@ -93,6 +119,8 @@
       <option name="presentableId" value="Default" />
       <updated>1781344911969</updated>
       <workItem from="1781344913727" duration="266000" />
+      <workItem from="1781345214042" duration="3171000" />
+      <workItem from="1781423028099" duration="661000" />
     </task>
     <servers />
   </component>
