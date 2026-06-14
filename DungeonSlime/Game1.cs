@@ -2,13 +2,15 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using MonoGameLibrary;
+using MonoGameLibrary.Graphics;
 
 namespace DungeonSlime;
 
 public class Game1 : Core
 {
 
-    private Texture2D _logo;
+    private TextureRegion _slime;
+    private TextureRegion _bat;
     
     
     public Game1() : base("Dungeon Slime", 1280, 720, false)
@@ -26,7 +28,11 @@ public class Game1 : Core
     protected override void LoadContent()
     {
 
-        _logo = Content.Load<Texture2D>("images/logo");
+        TextureAtlas atlas = TextureAtlas.FromFile(Content, "images/atlas-definition.xml");
+        
+        
+        _slime = atlas.GetRegion("slime");
+        _bat = atlas.GetRegion("bat");
 
     }
 
@@ -44,46 +50,11 @@ public class Game1 : Core
     {
         GraphicsDevice.Clear(Color.CornflowerBlue);
         
-        Rectangle iconSourceRect = new Rectangle(0, 0, 128, 128);
-
-        Rectangle wordmarkSourceRect = new Rectangle(150, 34, 458, 58);
-
-
-        SpriteBatch.Begin();
         
-        //SpriteBatch.Draw(_logo, Vector2.Zero, Color.White);
-        SpriteBatch.Draw(
-            _logo,
-            new Vector2(
-                Window.ClientBounds.Width,
-                Window.ClientBounds.Height) * 0.5f,
-            iconSourceRect,
-            Color.White,
-            0.0f,
-            new Vector2(
-                iconSourceRect.Width,
-                iconSourceRect.Height) * 0.5f,
-            1.0f,
-            SpriteEffects.None,
-            1.0f
-            );
+        SpriteBatch.Begin(samplerState: SamplerState.PointClamp);
         
-        SpriteBatch.Draw(
-            _logo,              
-            new Vector2(        
-                Window.ClientBounds.Width,
-                Window.ClientBounds.Height) * 0.5f,
-            wordmarkSourceRect, 
-            Color.White,        
-            0.0f,               
-            new Vector2(        
-                wordmarkSourceRect.Width,
-                wordmarkSourceRect.Height) * 0.5f,
-            1.0f,              
-            SpriteEffects.None, 
-            0.0f                
-        );
-        
+        _slime.Draw(SpriteBatch, Vector2.Zero, Color.White, 0.0f, Vector2.One, 4.0f, SpriteEffects.None, 0.0f);
+        _bat.Draw(SpriteBatch, new Vector2(_slime.Width * 4.0f + 10, 0), Color.White, 0.0f, Vector2.One, 4.0f, SpriteEffects.None, 1.0f);
         
         SpriteBatch.End();
 

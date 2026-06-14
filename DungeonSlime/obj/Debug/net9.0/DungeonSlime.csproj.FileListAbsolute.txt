@@ -36,3 +36,4 @@
 /home/ol/Projects/MonoGameProjects/DungeonSlime/DungeonSlime/bin/Debug/net9.0/MonoGameLibrary.pdb
 /home/ol/Projects/MonoGameProjects/DungeonSlime/DungeonSlime/bin/Debug/net9.0/Content/images/atlas.xnb
 /home/ol/Projects/MonoGameProjects/DungeonSlime/DungeonSlime/bin/Debug/net9.0/Content/images/logo.xnb
+/home/ol/Projects/MonoGameProjects/DungeonSlime/DungeonSlime/bin/Debug/net9.0/Content/images/atlas-definition.xml

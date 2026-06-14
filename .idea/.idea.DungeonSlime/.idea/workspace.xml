@@ -10,13 +10,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6b027df9-00c6-4823-85e7-bc532da7e161" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/MonoGameLibrary/Graphics/TextureAtlas.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MonoGameLibrary/Graphics/TextureRegion.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DungeonSlime/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DungeonSlime/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/Content/Content.mgcb" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/Content/Content.mgcb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DungeonSlime/Game1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/Game1.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/bin/Debug/net9.0/DungeonSlime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/bin/Debug/net9.0/DungeonSlime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/bin/Debug/net9.0/DungeonSlime.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/bin/Debug/net9.0/DungeonSlime.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/bin/Debug/net9.0/MonoGameLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/bin/Debug/net9.0/MonoGameLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/bin/Debug/net9.0/MonoGameLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/bin/Debug/net9.0/MonoGameLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DungeonSlime/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.csproj.AssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.csproj.AssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/DungeonSlime.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/ref/DungeonSlime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/ref/DungeonSlime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/refint/DungeonSlime.dll" beforeDir="false" afterPath="$PROJECT_DIR$/DungeonSlime/obj/Debug/net9.0/refint/DungeonSlime.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoGameLibrary/bin/Debug/net9.0/MonoGameLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MonoGameLibrary/bin/Debug/net9.0/MonoGameLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoGameLibrary/bin/Debug/net9.0/MonoGameLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MonoGameLibrary/bin/Debug/net9.0/MonoGameLibrary.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/ref/MonoGameLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/ref/MonoGameLibrary.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/refint/MonoGameLibrary.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MonoGameLibrary/obj/Debug/net9.0/refint/MonoGameLibrary.dll" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +140,7 @@
       <updated>1781344911969</updated>
       <workItem from="1781344913727" duration="266000" />
       <workItem from="1781345214042" duration="3171000" />
-      <workItem from="1781423028099" duration="661000" />
+      <workItem from="1781423028099" duration="5397000" />
     </task>
     <servers />
   </component>
